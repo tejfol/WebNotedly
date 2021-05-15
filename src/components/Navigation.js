@@ -56,6 +56,14 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
+          <Link to="/new">
+            New{' '}
+            <span aria-hidden="true" role="img">
+              🤗
+            </span>
+          </Link>
+        </li>
+        <li>
           <Link to="/mynotes">
             My Notes{' '}
             <span aria-hidden="true" role="img">
