@@ -34,7 +34,6 @@ const Note = ({ note }) => {
           <img
             src={note.author.avatar}
             alt="{note.author.username}"
-            avatar
             height="50px"
           />
         </MetaInfo>
